@@ -4,7 +4,6 @@ import Home from '../components/Home';
 import About from '../components/About';
 
 const App = () => {
-  console.log('im here');
   return (
     <Switch>
       <Route exact path='/' component={Home} />

@@ -7,7 +7,7 @@ import Home from '../components/Home';
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <BrowserRouter>
-      <Route path="/" component={App} />>
+      <Route path="/" component={App} />
     </BrowserRouter>,
     document.body.appendChild(document.createElement('div'))
   );
