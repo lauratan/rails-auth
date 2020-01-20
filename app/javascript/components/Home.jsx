@@ -1,13 +1,16 @@
 import React from 'react';
-import Layout from './Layouts/Layout';
+import Container from 'react-bootstrap/Container';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 const Home = () => {
   return (
-    <Layout>
-      <p>This is home</p>
-
-    </Layout>
-  )
+    <>
+      <NavBar />
+        <div>Hello</div>
+      <Footer/>
+    </>
+  );
 };
 
 export default Home;
